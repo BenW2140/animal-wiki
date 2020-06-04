@@ -1,0 +1,11 @@
+.jumbotron {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 500px;
+}

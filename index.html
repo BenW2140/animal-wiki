@@ -9,6 +9,51 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="jumbotron">Animal Wiki</h1>
+    <h5>Select an animal below:</h5>
+    <form id="form">
+      <div>
+        <input type="radio" id="radioChoice1" name="animal" value="goat" checked>
+        <label for="radioChoice1">Goat</label>
+      </div>
+      <div>
+        <input type="radio" id="radioChoice2" name="animal" value="platypus">
+        <label for="radioChoice2">Platypus</label>
+      </div>
+      <div>
+        <input type="radio" id="radioChoice3" name="animal" value="mantisShrimp">
+        <label for="radioChoice3">Mantis Shrimp</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="goat" class="hidden">
+      <h5>Here's some information about goats.</h5>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/1024px-Hausziege_04.jpg" alt="">
+      <ul>
+        <li>Adult goats weight between 45 to 60lbs(20 to 27 kg)</li>
+        <li>They have rectangle shaped pupils</li>
+        <li>Both male and female goats have beards</li>
+      </ul>
+    </div>
+    <div id="platypus" class="hidden">
+      <h5>Here's some information about Platypuses.</h5>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Wild_Platypus_4.jpg" alt="">
+      <ul>
+        <li>David Collin's who discovered Platypuses was thought to be a fraud who had made them up.</li>
+        <li>Adult Platypuses can weight up to 1.5 to 5.3lbs(0.7 to 2.4kg)</li>
+        <li>They have venomous barbs on above their webbed feet</li>
+      </ul>
+    </div>
+    <div id="mantisShrimp" class="hidden">
+      <h5>Here's some information about Mantis Shrimp.</h5>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/OdontodactylusScyllarus2.jpg/1024px-OdontodactylusScyllarus2.jpg" alt="">
+      <ul>
+        <li>There are 451 species of Mantis Shrimp</li>
+        <li>Adult Mantis Shrimp range from 10cm(3.9in) to 38cm(15in) in length</li>
+        <li>Mantis Shrimp can see from deep ultraviolet to infrared.</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
